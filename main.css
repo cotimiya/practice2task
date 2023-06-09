@@ -1,0 +1,128 @@
+body {
+  font-family: "Comfortaa", cursive;
+  color: white;
+  background-color: #1E1E1E;
+}
+
+header {
+  background-color: #505050;
+  height: 6em;
+  margin: 0.5em;
+}
+header .header {
+  max-width: 60%;
+  margin: 0 auto;
+}
+header .header h1 {
+  font-size: 30px;
+  padding-top: 1em;
+}
+header .header nav {
+  margin-top: -1.3em;
+}
+header .header nav ul {
+  display: flex;
+  margin: 0 auto;
+  max-width: 30%;
+  justify-content: space-between;
+}
+header .header nav ul li {
+  display: inline-block;
+}
+header .header nav ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+header .header .header-button {
+  margin-left: 100%;
+  margin-top: -1.3em;
+}
+header .header .header-button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #6E6E6E;
+}
+
+aside {
+  max-width: 20%;
+  background-color: #505050;
+  margin-left: 0.5em;
+  height: 53em;
+}
+aside .aside {
+  display: flex;
+  flex-direction: column;
+}
+aside .aside a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 30px 30px;
+  border-bottom: 2px solid #6E6E6E;
+}
+aside .aside-button {
+  margin-top: 30em;
+  text-align: center;
+}
+aside .aside-button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 100px;
+  background-color: #6E6E6E;
+}
+
+main {
+  margin-left: 21%;
+  margin-top: -53em;
+  margin-right: 0.5em;
+  background-color: #505050;
+  height: 44em;
+}
+main .main {
+  padding: 1em;
+}
+main .main section {
+  max-width: 35%;
+  height: 40em;
+  background-color: #6E6E6E;
+  padding: 1em;
+}
+main .main section .block {
+  padding: 10px 20px;
+  background-color: #505050;
+  margin-bottom: 1.5em;
+  height: 3em;
+}
+main .main section .block h1 {
+  font-size: 20px;
+}
+main .main section .block p {
+  font-size: 14px;
+}
+main .main .aside-right {
+  margin-left: 60%;
+  margin-top: -42em;
+}
+main .main .aside-right h1 {
+  font-size: 40px;
+  padding: 30px 30px;
+  background-color: #6E6E6E;
+}
+
+footer {
+  margin-left: 20.6%;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  background-color: #505050;
+  height: 8.5em;
+}
+footer .footer {
+  padding: 1em;
+  max-width: 10em;
+}
+footer .footer p {
+  margin-bottom: 0.5em;
+  padding: 3px 20px;
+  font-size: 14px;
+  background-color: #6E6E6E;
+}/*# sourceMappingURL=main.css.map */
